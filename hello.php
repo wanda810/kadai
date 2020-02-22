@@ -24,10 +24,22 @@ $tech_boost .= ' boost';
 echo $tech_boost;
 
 //課題5
-echo '変数は数字で始まる名前は付けられない。';
-echo '変数はarray()か[]で囲む';
-echo 'Feburaryを定義しているとき、で区切っている';
-echo 'Octoberの値が文字列なのに\'\'で囲まれていない';
-echo 'echoで表示するとき、[December]ではなく[\'December\']にする。';
 
+$calendar_2018 = array
+(
+  "january" => "1月",
+  "February" => "2月",
+  "March" => "3月",
+  "April" => "4月",
+  "May" => "5月",
+  "June" => "6月",
+  "July" => "7月",
+  "August" => "8月",
+  "September" => "9月",
+  "October" => "10月",
+  "November" => "11月",
+  "December" => "12月"
+);
+
+echo $calendar_2018["December"];
 ?>
